@@ -1,0 +1,799 @@
+/* Media Queries for all devices */
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    #logo img {
+        height: 45px;
+    }
+
+    #logo {
+        margin: 3px 1px;
+    }
+
+    .fa {
+        font-size: 13px !important;
+        top: 0px;
+    }
+
+    #search {
+        top: 18px;
+        right: 8px;
+    }
+
+    #search input {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    #navbar ul li {
+        font-size: 1.2rem;
+        margin: 2px 17px;
+    }
+
+    .h-primary {
+        font-size: 2.1rem;
+    }
+
+    .h-secondry {
+        font-size: 2rem;
+    }
+
+    #home {
+        padding: 25px 0px;
+        height: 73vh;
+    }
+
+    #home::before {
+        height: 75vh;
+    }
+
+    #home h1 {
+        font-size: 2.1rem;
+        padding-bottom: 10px;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        padding: 7px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+
+    #services-cont {
+        height: 100%;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    #services .item img {
+        height: 120px;
+    }
+
+    #clients img {
+        height: 115px;
+        flex-wrap: wrap;
+    }
+
+    .contact-group input,
+    #contact textarea {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+
+    #contact form label {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .footer-col .social-links a {
+        margin: 10px;
+    }
+
+    .Submit {
+        margin-left: 90px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #logo img {
+        height: 50px;
+    }
+
+    #logo {
+        margin: 3px 1px;
+    }
+
+
+    .fa {
+        top: 0px;
+        right: 27px;
+        font-size: 15px !important;
+    }
+
+    #search {
+        top: 18px;
+        right: 8px;
+    }
+
+    #search input {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    #navbar ul li {
+        font-size: 1.2rem;
+        margin: 2px 17px;
+    }
+
+    .h-primary {
+        font-size: 1.9rem;
+    }
+
+    .h-secondry {
+        font-size: 1.7rem;
+    }
+
+    #home {
+        padding: 25px 3px;
+        height: 70vh;
+    }
+
+    #home::before {
+        height: 68vh;
+    }
+
+    #home h1 {
+        font-size: 1.8rem;
+        padding-bottom: 10px;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    #services-cont {
+        height: 100%;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    #services .item img {
+        height: 115px;
+    }
+
+    #clients img {
+        height: 105px;
+        flex-wrap: wrap;
+    }
+
+    .contact-group input,
+    #contact textarea {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+
+    #contact form label {
+        font-size: 1.2rem;
+    }
+
+
+    .Submit {
+        display: block;
+        margin-left: 90px;
+    }
+
+    
+    .footer-col .social-links a {
+        margin: 8px;
+        width: 37px;
+        height: 37px;
+        font-size: 17px;
+    }
+
+    .footer-col h4{
+        font-size: 18px;
+    }
+
+    .footer-col ul li a{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #search input {
+        width: 130px;
+        height: 22px;
+        font-size: 0.8rem;
+
+    }
+
+    #search {
+        top: 50px;
+        right: 0px;
+    }
+
+    .fa {
+        top: 0px;
+        right: 27px;
+        font-size: 14px !important;
+    }
+
+    #navbar ul li {
+        font-size: 1rem;
+        margin: 3px 17px;
+    }
+
+    #navbar ul li a {
+        right: 118px;
+    }
+
+    #logo img {
+        height: 40px;
+        border-radius: 13px;
+    }
+
+    .h-primary {
+        font-size: 1.9rem;
+    }
+
+    #home::before {
+        height: 73vh;
+    }
+
+    #home p {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #services-cont {
+        height: 100%;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    .h-secondry {
+        font-size: 1.7rem;
+    }
+
+    #home {
+        padding: 25px 4px;
+        padding-left: 5px;
+        height: 63vh;
+    }
+
+
+    #home h1 {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    #services .item img {
+        height: 110px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #clients img {
+        height: 95px;
+        padding: 9px 19px;
+    }
+
+    .contact-group input,
+    #contact textarea {
+        font-size: 1rem;
+        width: 90%;
+        border: none;
+    }
+
+    #contact form label {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .Submit {
+        display: block;
+        margin-left: 85px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .footer-col .social-links a {
+        margin: 8px;
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .footer-col h4{
+        font-size: 14px;
+    }
+
+    .footer-col h4::before{
+        width: 36px;
+    }
+
+    .footer-col ul li a {
+        font-size: 12px;
+    }
+
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #search input {
+        width: 8em;
+        border-radius: 5px;
+        height: 15px;
+        font-size: 0.5rem;
+
+    }
+
+    #search {
+        top: 43px;
+        right: 0px;
+    }
+
+    .fa {
+        font-size: 8px !important;
+        right: 15px;
+        top: 0px;
+    }
+
+    #navbar ul li {
+        font-size: 12px;
+        margin: 3px 11px;
+    }
+
+    #navbar ul li a {
+        right: 72px;
+    }
+
+    #logo img {
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .h-primary {
+        font-size: 1.5rem;
+    }
+
+    #home::before {
+        height: 56vh;
+    }
+
+    #home p {
+        font-size: 12px;
+        display: contents;
+    }
+
+    .btn {
+        font-size: 12px;
+        border-radius: 8px;
+        padding: 7px;
+    }
+
+    #services-cont {
+        height: 100%;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    .h-secondry {
+        font-size: 1.4rem;
+    }
+
+    #home {
+        padding: 25px 3px;
+        padding-left: 8px;
+        height: 50vh;
+    }
+
+
+    #home h1 {
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+    }
+
+    #services .item img {
+        height: 80px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #clients img {
+        height: 85px;
+        padding: 9px 18px;
+        flex-wrap: wrap;
+    }
+
+    .contact-group input,
+    #contact textarea {
+        font-size: 14px;
+        border: none;
+        width: 100%;
+    }
+
+    #contact form label {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .Submit {
+        display: block;
+        margin: auto;
+    }
+
+    .footer-col .social-links a {
+        margin: 7px 5px;
+        width: 36px;
+        font-size: 14px;
+        height: 37px;
+        line-height: 39px;
+    }
+
+    .footer-col {
+        width: 44%;
+        margin-bottom: 20px;
+    }
+
+    .footer-col h4 {
+        font-size: 14px;
+    }
+
+    .footer-col ul li a {
+        font-size: 12px;
+    }
+
+    .footer-col h4::before {
+        width: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width:310px) and (max-width:399px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #search input {
+        width: 65px;
+        height: 15px;
+        border-radius: 5px;
+        font-size: 0.5rem;
+        margin-right: 2px;
+
+    }
+
+    #search {
+        top: 32px;
+        right: -2px;
+    }
+
+    .fa {
+        font-size: 8px !important;
+        right: 15px;
+        top: 0px;
+    }
+
+    #navbar ul li {
+        font-size: 10px;
+        margin: 3px 7px;
+    }
+
+    #navbar ul li a {
+        right: 60px;
+    }
+
+    #logo img {
+        height: 30px;
+        border-radius: 9px;
+    }
+
+    .h-primary {
+        font-size: 1.3rem;
+    }
+
+    #home::before {
+        height: 64vh;
+    }
+
+    #home p {
+        font-size: 10px;
+        display: contents;
+    }
+
+    .btn {
+        font-size: 11px;
+        border-radius: 5px;
+        padding: 6px;
+    }
+
+    #services-cont {
+        height: 100%;
+        margin-top: 25px;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    .h-secondry {
+        font-size: 1.2rem;
+    }
+
+    #home {
+        padding: 25px 3px;
+        padding-left: 10px;
+        height: 60vh;
+    }
+
+
+    #home h1 {
+        font-size: 1rem;
+        padding-bottom: 8px;
+    }
+
+    #services .item img {
+        height: 80px;
+    }
+
+    #services .item {
+        box-shadow: 2px 3px 7px black;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    #clients img {
+        height: 75px;
+        padding: 9px 17px;
+        flex-wrap: wrap;
+    }
+
+    #client-section {
+        height: 540px;
+    }
+
+    #client-section::before {
+        height: 73%;
+    }
+
+    .contact-group input,
+    #contact textarea {
+        font-size: 12px;
+        width: 90%;
+        border: none;
+        border-radius: 7px;
+    }
+
+    #contact form label {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .Submit {
+        display: block;
+        margin: auto;
+        margin-left: 73px;
+    }
+
+    .footer-col .social-links a {
+        margin: 7px 5px;
+        width: 35px;
+        height: 32px;
+        line-height: 34px;
+        font-size: 13px;
+    }
+
+    .footer-col {
+        width: 44%;
+        margin-bottom: 20px;
+    }
+
+    .footer-col h4 {
+        font-size: 14px;
+    }
+
+    .footer-col ul li a {
+        font-size: 10px;
+    }
+
+    .footer-col h4::before {
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 309px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #search input {
+        width: 62px;
+        height: 12px;
+        border-radius: 5px;
+        font-size: 0.4rem;
+        margin-right: 2px;
+
+    }
+
+    #search {
+        top: 26px;
+        right: -2px;
+    }
+
+    .fa {
+        font-size: 7px !important;
+        right: 15px;
+        top: 1px;
+    }
+
+    #navbar ul li {
+        margin: 3px 6px;
+        font-size: 9px;
+    }
+    
+    #navbar ul li a {
+        right: 50px;
+    }
+
+    #logo img {
+        height: 23px;
+        border-radius: 9px;
+    }
+
+    .h-primary {
+        font-size: 1.2rem;
+    }
+
+    #home::before {
+        height: 60vh;
+    }
+
+    #home p {
+        font-size: 9px;
+        display: contents;
+    }
+
+    .btn {
+        font-size: 0.6rem;
+        border-radius: 5px;
+        padding: 4px;
+    }
+
+    #services-cont {
+        height: 100%;
+        margin-top: 25px;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    .h-secondry {
+        font-size: 1rem;
+    }
+
+    #home {
+        padding: 25px 3px;
+        padding-left: 9px;
+        height: 50vh;
+    }
+
+
+    #home h1 {
+        font-size: 0.9rem;
+        padding-bottom: 8px;
+    }
+
+    #services .item img {
+        height: 80px;
+    }
+
+    #services .item {
+        box-shadow: 2px 3px 7px black;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #clients img {
+        height: 65px;
+        padding: 9px 17px;
+        flex-wrap: wrap;
+    }
+
+    #client-section {
+        height: 540px;
+    }
+
+    #client-section::before {
+        height: 70%;
+    }
+
+    .contact-group input,
+    #contact textarea {
+        font-size: 0.6rem;
+        width: 80%;
+        border-radius: 7px;
+    }
+
+    #contact form label {
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+
+    .Submit {
+        margin-left: 50px;
+    }
+
+    .footer-col .social-links a {
+        margin: 7px 5px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 13px;
+    }
+
+    .footer-col {
+        width: 44%;
+        margin-bottom: 20px;
+    }
+
+    .footer-col h4 {
+        font-size: 12px;
+    }
+
+    .footer-col ul li a {
+        font-size: 9px;
+    }
+
+    .footer-col h4::before {
+        width: 30px;
+    }
+
+}

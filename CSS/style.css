@@ -1,0 +1,376 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Image */
+#logo {
+    margin: 3px 6px;
+}
+
+#logo img {
+    height: 52px;
+    margin: 0px 10px;
+    border-radius: 15px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* navbar */
+header #navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar ul li {
+    margin: 2px 30px;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#navbar ul li a {
+    /* display: block; */
+    text-decoration: none;
+    border-radius: 8px;
+    position: relative;
+    color: white;
+}
+
+#search {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+}
+
+#search input {
+    box-shadow: 3px 7px 4px black;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    width: 180px;
+    border: none;
+    padding: 3px;
+    font-family: 'Bree Serif', serif;
+}
+
+.fa {
+    position: relative;
+    top: 0px;
+    font-size: 1.1em !important;
+    right: 37px;
+}
+
+
+#navbar ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transition: transform .7s;
+    background: #ffffff;
+    bottom: -8px;
+    left: 1px;
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Utility classes */
+.h-primary {
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.h-secondry {
+    font-size: 2.1rem;
+    font-family: 'Bree Serif', serif;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding: 25px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 10px;
+}
+
+#home h1 {
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../Assets/BG home.jpg') no-repeat center center/cover;
+    height: 96%;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.97;
+}
+
+.btn {
+    padding: 13px;
+    border: none;
+    transition: .5s;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    box-shadow: 5px 8px 9px rgb(8, 8, 8);
+    margin: 15px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Services Section */
+
+#services-cont {
+    height: 615px;
+}
+
+#services {
+    display: flex;
+    margin: 34px;
+}
+
+#services .item {
+    border: 2px solid black;
+    background-color: #fff9f6;
+    box-shadow: 1px 2px 9px rgb(8, 8, 8);
+    margin: 9px;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+#services .item img {
+    height: 139px;
+    display: block;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Clients Section */
+#client-section {
+    height: 580px;
+    position: relative;
+}
+
+#clients img {
+    height: 125px;
+    padding: 12px 25px;
+    /* padding-top: 80px; */
+    position: relative;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top {
+    padding-top: 35px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../Assets/Client.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+/* Contact Section */
+#contact-section {
+    height: 100%;
+    position: relative;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contact-group form {
+    width: 100%;
+}
+
+.contact-group input,
+#contact textarea {
+    width: 100%;
+    margin: 9px;
+    box-shadow: 3px 3px 14px black;
+    padding: 7px;
+    border-radius: 9px;
+    border: none;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
+}
+
+#contact textarea {
+    box-shadow: 2px 7px 8px black;
+}
+
+#contact form label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-section::before {
+    content: "";
+    position: absolute;
+    background: url('../Assets/BG Contact.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 104%;
+    z-index: -1;
+    opacity: 0.78;
+}
+
+.Submit {
+    margin-left: 112px;
+}
+
+/* footer */
+
+footer {
+    background-color: #24262b;
+    padding: 60px 0px;
+}
+
+.mycont{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 16px;
+}
+
+.footer-col h4{
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 2px;
+    background-color: #e91e63;
+}
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li:not(:last-child)
+{
+    margin-bottom: 13px;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    display: block;
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    transition: all 0.5 ease;
+}
+
+.footer-col ul li a:hover{
+    padding-left: 8px;
+    color: #ffffff;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.footer-col .social-links a:hover{
+    background-color: #ffffff;
+    color: #24262b;
+}
+
